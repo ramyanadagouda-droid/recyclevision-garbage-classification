@@ -1,5 +1,5 @@
-# TensorFlow 2.20+ supports Python 3.13; earlier releases do not.
-tensorflow>=2.20,<2.22
+# CPU-only build is suitable for Streamlit Community Cloud.
+tensorflow-cpu==2.16.1
 streamlit>=1.35
 scikit-learn>=1.4
 pandas>=2.0
